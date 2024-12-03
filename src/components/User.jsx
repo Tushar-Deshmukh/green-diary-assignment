@@ -3,6 +3,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import AddUserDialog from "./AddUserDialog";
 
+
 export default function User() {
   const navigate = useNavigate();
   const [data, setData] = useState([]);
